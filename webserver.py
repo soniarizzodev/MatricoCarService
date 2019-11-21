@@ -1,6 +1,6 @@
 from webapp import app
 
-def startWebserver():
+def startWebserver(one, two):
     ''' This function start a Flask webserver for GlobsitSmartDrone webapp 
     '''
     app.run(port=5000)
